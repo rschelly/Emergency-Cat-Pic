@@ -1,0 +1,22 @@
+{
+    "name": "Emergency Cats",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Emergency Cats"
+    },
+    "icons": {
+        "16": "./assets/icon.png",
+        "32": "./assets/icon.png",
+        "48": "./assets/icon.png",
+        "128": "./assets/icon.png"
+    } 
+   
+}
